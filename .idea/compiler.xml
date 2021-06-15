@@ -7,17 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="store" />
-        <module name="store-service" />
-        <module name="store-core" />
         <module name="store-web" />
+        <module name="store-core" />
+        <module name="store" />
+        <module name="store-service-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="store" target="1.8" />
       <module name="store-core" target="1.8" />
       <module name="store-service" target="1.8" />
+      <module name="store-service-user" target="1.8" />
       <module name="store-web" target="1.8" />
+      <module name="store-web (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,7 +27,9 @@
       <module name="store" options="-parameters" />
       <module name="store-core" options="-parameters" />
       <module name="store-service" options="-parameters" />
+      <module name="store-service-user" options="-parameters" />
       <module name="store-web" options="-parameters" />
+      <module name="store-web (1)" options="-parameters" />
     </option>
   </component>
 </project>
