@@ -1,0 +1,9 @@
+.idea/*
+LOG_HOME_IS_UNDEFINED/*
+*.iml
+*.log
+target/
+check_result.html
+local_check.bat
+index.txt
+*.versionsBackup
